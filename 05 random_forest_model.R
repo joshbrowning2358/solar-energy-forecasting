@@ -32,3 +32,5 @@ cv.mod = lapply( 1:10, function(i){
 })
 mod = eval.model.list(cv.mod)
 write.csv( mod$pred, file="glm_20_comp.csv", row.names=F)
+
+#Github test
